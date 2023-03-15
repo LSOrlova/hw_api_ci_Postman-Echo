@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
                     .post("/post")
                     .then()
                     .statusCode(200)
-                    .body("data", equalTo("Good Day"))
+                    .body("data", equalTo("Good morning"))
             ;
         }
 }
